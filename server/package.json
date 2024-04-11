@@ -1,0 +1,27 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "server":"nodemon index.js",
+    "client":"npm start --prefix ./mernapp",
+    "dev":"concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.0",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^5.5.0",
+    "mongoose": "^6.2.6",
+    "path": "^0.12.7"
+  }
+}
