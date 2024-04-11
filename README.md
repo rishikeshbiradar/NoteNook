@@ -10,7 +10,6 @@ NoteNook is a feature-rich note-taking web application crafted with the MERN (Mo
 
 - **Effortless Note Management:** Create, update, and delete notes with a user-friendly interface designed for simplicity and efficiency.
 
-- **Real-time Updates:** Experience real-time synchronization of notes across devices for a seamless user experience.
 
 ## Technologies Used
 
